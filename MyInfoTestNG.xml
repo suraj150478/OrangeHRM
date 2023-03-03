@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+  	<groups>
+  	<define name="one">
+  		<include name="Background"/>
+  		<include name="MyInfo"/>
+  	</define>
+  	<run>
+  		<include name="one"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="runner.MyInfoStepDefinitionTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="Test2">
+  	<groups>
+  	<define name="one">
+  		<include name="Background"/>
+  		<include name="MyInfo"/>
+  	</define>
+  	<run>
+  		<include name="one"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="runner.MyInfoStepDefinitionTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="Test3">
+  	<groups>
+  	<define name="one">
+  		<include name="Background"/>
+  		<include name="MyInfo"/>
+  	</define>
+  	<run>
+  		<include name="one"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="runner.MyInfoStepDefinitionTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="Test4">
+  	<groups>
+  	<define name="one">
+  		<include name="Background"/>
+  		<include name="MyInfo"/>
+  	</define>
+  	<run>
+  		<include name="one"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="runner.MyInfoStepDefinitionTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="Test5">
+  	<groups>
+  	<define name="one">
+  		<include name="Background"/>
+  		<include name="MyInfo"/>
+  	</define>
+  	<run>
+  		<include name="one"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="runner.MyInfoStepDefinitionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
